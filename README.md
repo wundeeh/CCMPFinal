@@ -21,13 +21,13 @@ Add the output bucket as an environmental variable
 <img width="1334" height="215" alt="image" src="https://github.com/user-attachments/assets/f2c51f03-8e74-4f1e-9a13-a796a8afc1a2" />
 
 ## 3. Create State Machine
-<img width="1361" height="826" alt="image" src="https://github.com/user-attachments/assets/2ee3d849-e9f0-4c86-b8d3-cc4e9811be2d" />
 ### 3.1 
 Place the Lambda function as the first item in the chain
 ### 3.2
 Place a choice state after the Lambda finishes running
 ### 3.3
 Return success if the Lambda succeeds, otherwise return failure
+<img width="1361" height="826" alt="image" src="https://github.com/user-attachments/assets/2ee3d849-e9f0-4c86-b8d3-cc4e9811be2d" />
 
 ## 4. Create new REST API Gateway
 ### 4.1 
